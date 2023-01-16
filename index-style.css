@@ -1,0 +1,55 @@
+#theConsole {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    overflow: scroll;
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(224, 224, 224);
+    opacity: 70%;
+    background-color: white;
+}
+#theConsoleClear {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+
+body {
+    background-image: url('images/AppBreweryWallpaper7.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vmax);
+    height: calc(20vmax);
+    overflow: hidden;
+}
+
+.loginPage {
+    text-align: center;
+    align-self: flex-end;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 98%;
+    height: calc(70vmax);
+    font-size: 4em;
+    text-shadow: 3px 3px black;
+}
+
+/* #greeting {
+    outline: 1px solid black;
+} */
+
+.input-items {
+    font-size: .3em;
+}

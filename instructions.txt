@@ -1,0 +1,16 @@
+1. A Modal that asks the user for his name
+2. After the name is entered, redirect to the home page
+3. The homepage consists of:
+    a. A greeting with the name inputted in the first step // Good morning, Tyler
+    b. The time of greeting (morning, noon, evening) depends on the current time
+    c. Should show the current time with HH:mm:SS format, feel free to choose if military (24) or usual (12) but with am / pm, you can also do both by using a button toggle.
+    d. Another input for focus, // user can add, update/edit, delete
+    e. Background image carousel, every 1 minute change it
+4. Quotes carousel - every 1 min, the quote will change to another
+5. TODO list - somewhere in your page, you have to have a panel, in which:
+    - you can add a todo item
+    - you can mark as strikethrough a todo item
+    - you can delete a todo item
+    - you can edit a todo item
+6. Optional: when you refresh the page, the data you have inputted remains (check: localStorage)
+7. Optional: you can use an api, to get your quotes or even add a weather information.(fetch) (edited) 

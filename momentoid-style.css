@@ -1,0 +1,167 @@
+.consoleArea {
+    display:none;
+}
+#theConsole {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    overflow: scroll;
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(224, 224, 224);
+    opacity: 70%;
+    background-color: white;
+}
+#theConsoleClear {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+/* * {
+    border: 1px solid brown;
+} */
+
+body {
+    /* background: url("https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2022/01/good-nature-homepage-hero_2-scaled.jpg"); */
+    background: url("images/AppBreweryWallpaper.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vmax);
+    height: calc(70vmax);
+    overflow: hidden;
+}
+
+.main {
+  position: fixed;
+  top: 0px;
+  width: 60em;
+}
+
+.main h1 {
+    font-size: 5em;
+    color: gainsboro;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.clock {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 11em;
+    
+}
+
+#clockface {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.quoteDiv {
+    position: fixed;
+    width: 800px;
+    /* border: 1px solid red; */
+    align-self: center;
+    font-size: 1em;
+    color: ivory;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    bottom: 10px;
+}
+
+/* #quote {
+    position: fixed;
+    font-size: 1em;
+    color: ivory;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    bottom: 10px;
+} */
+
+/* #clockformat {
+    height: 2em;
+} */
+
+#container {
+    background-color: #0c1b24;
+    box-shadow: 2px 2px 5px#000;
+    width: 30%;
+    min-width: 400px;
+    border-radius: 5px;
+  }
+  
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#toDoInput {
+  outline: none;
+  width: 75%;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+#addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 35px;
+  background: #002e4d;
+  color: #FFF;
+  font-size: 20px;
+}
+
+#toDoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.toDoShell {
+  width: 380px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.788);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.toDoShell span {
+  width: 90%;
+}
+
+.completeText {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.ToDoButton {
+    height: 2em;
+    width: 2em;
+}
+
+#deleteButton {
+  color: red;
+  cursor: pointer;
+}
